@@ -1,9 +1,8 @@
-# hollowhouse fieldtech core
-
+#  Field_Tech_Core
 ## Hollow House Institute  
 Founder: **Amy Pierce Bui**  
 
-**Repository:** `hollowhouse-fieldtech-core`  
+**Repository:** `Field_Tech_Core`  
 **Organization:** Hollow House Institute  
 **License:** Hollow House Master License Suite  
 
@@ -20,8 +19,8 @@ Core tools and engines for field-aware and nervous-system-aware AI.
 
 ### Getting Started  
 ```bash
-git clone https://github.com/hollowhouseinstitute/hollowhouse-fieldtech-core.git
-cd hollowhouse-fieldtech-core
+git clone https://github.com/hollowhouseinstitute/Field-Tech-Core.git
+cd Field_Tech_Core
 ```
 
 ### License  
