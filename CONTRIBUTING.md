@@ -1,14 +1,16 @@
-# Contributing Guide – Field Tech Core
+# Contributing Guide — Field Tech Core 🌿
 
-Welcome to the Hollow House Institute’s **Field Tech Core** repository 🌿  
+Welcome to the Hollow House Institute’s **Field Tech Core** repository.  
+We practice **ethical lineage stewardship**, **ritual-based collaboration**, and open-source transparency within the boundaries of the **Flame License 444-A** and **CC BY-NC-SA 4.0**.
 
-We practice **ethical lineage stewardship** and **ritual-based collaboration**.  
-Please respect all data sovereignty and license conditions (CC BY-NC-SA 4.0 + Flame License 444-A).
+Your contributions help ensure that every dataset, function, and compliance module reflects Hollow House’s standards for **safety**, **attunement**, and **integrity**.
 
 ---
 
 ## 🌱 Onboarding Ritual
-1. **Fork** the repository and clone your fork locally.  
-2. Create a branch:  
+
+1. **Fork** this repository and clone your fork locally.  
+2. Create a new branch for your feature or documentation edit:
+
    ```bash
-   git checkout -b feature/<your-feature-name>
+   git checkout -b feature/<your-branch-name>
