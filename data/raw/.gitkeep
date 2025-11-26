@@ -1,0 +1,54 @@
+# Raw Data — Field Tech Core
+
+This folder stores **original, unprocessed data** captured from field operations
+before any cleaning, anonymization, or transformation has been applied.
+
+Raw data is the first stage in the Field Tech Core pipeline and should be
+treated as **sensitive by default**, especially when it includes human
+conversations, nervous-system events, or relational logs.
+
+---
+
+## What belongs here
+
+Examples:
+
+- direct exports from chat platforms or APIs  
+- sensor or event logs in their original format  
+- CSV / JSON / TXT files received from collaborators or pilots  
+- temporary dumps used for initial exploration and cleaning
+
+File examples:
+
+- `co_regulation_logs_raw.csv`  
+- `interaction_events_raw.json`  
+- `partner_export_YYYYMMDD.csv`
+
+---
+
+## Handling & Safety
+
+- **Do not** commit identifiable or high-risk personal data to the public repo.  
+- Prefer storing truly sensitive raw data in **encrypted, access-controlled
+  storage**, and use this folder only for:
+  - small, anonymized samples, or  
+  - schema examples (with fake data).
+
+- Any movement of files from `data/raw/` → `data/processed/` must follow the
+  dataset handling and anonymization rules defined in the  
+  **Hollow House Standards Library**.
+
+---
+
+## Lifecycle
+
+Typical flow:
+
+`data/raw/` → cleaning + validation → anonymization → `data/processed/`
+
+Once a dataset is fully processed and backed up, consider removing the original
+raw files from this repo, or keeping only **redacted samples** for reference.
+
+---
+
+_Last updated: 2025-11-26_
