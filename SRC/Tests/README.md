@@ -34,3 +34,4 @@ From the repo root:
 ```bash
 pip install -r requirements-dev.txt   # when this file exists
 pytest -v
+pytest SRC/Tests/test_event_streams.py -v
