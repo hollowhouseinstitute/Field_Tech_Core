@@ -1,0 +1,38 @@
+# Processed Data — Field Tech Core
+
+This folder stores **cleaned, structured, and anonymized datasets** that have passed initial validation and ethical compliance review.  
+Processed datasets here are ready for analysis, certification submission, or export to other Hollow House repositories.
+
+---
+
+## Folder Purpose
+
+The `data/processed/` directory represents the **post-cleaning stage** in the Field Tech Core data pipeline.  
+Files here have typically gone through:
+
+1. **Ingestion** → Raw collection from field operations  
+2. **Validation** → Schema, timestamp, and identifier checks  
+3. **Anonymization** → Removal or masking of personal identifiers  
+4. **Normalization** → Standardizing variable names, formats, and units  
+5. **Compliance Review** → Confirmation that all handling aligns with the Hollow House Standards Library
+
+---
+
+## Example File Types
+
+- `co_regulation_logs_clean.csv`
+- `interaction_events_normalized.json`
+- `dataset_metadata.yaml`
+- `audit_summary.txt`
+
+---
+
+## Notes
+
+- Do **not** store raw or sensitive data here.  
+- Each processed dataset should have a corresponding entry in the main dataset index (`data_index.md` or equivalent).
+- If you’re working on updates, version files as `datasetname_v2.csv` or similar.
+
+---
+
+_Last updated: 2025-11-26_
