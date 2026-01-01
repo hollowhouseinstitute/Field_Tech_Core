@@ -2,6 +2,9 @@
 ## Hollow House Institute  
 Founder: **Amy Pierce Bui**  
 
+Time turns behavior into infrastructure.
+Behavior is the most honest data there is.
+
 **Repository:** `Field_Tech_Core`  
 **Organization:** Hollow House Institute  
 **License:** Hollow House Master License Suite  
